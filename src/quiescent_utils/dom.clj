@@ -1,4 +1,4 @@
-(ns quiescent-utils.dom)
+(ns quiescent-toolbox.dom)
 
 (defn- component-fn-symbol [js-namespace tag]
   (symbol (str "js/" js-namespace "." (name tag))))
